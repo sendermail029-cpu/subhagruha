@@ -111,21 +111,24 @@
 
 
 /* ---------- Page transition (every page, incl. sub-pages) ---------- */
-/* cream screen + full logo + gold line, then the screen lifts away; the new page rises in */
+/* cream screen + full logo + gold line, then the screen gently fades away; the new page fades in (no sliding) */
 .pt-curtain {
   position: fixed; inset: 0; z-index: 90; pointer-events: none; display: grid; place-items: center;
-  background: #FFFAF3; animation: ptLift .75s cubic-bezier(.76,0,.24,1) .85s both;
+  background: #FFFAF3; animation: ptOut .6s ease .8s both;
 }
-.pt-glow { position: absolute; inset: 0; background: radial-gradient(ellipse 45% 40% at 50% 50%, rgba(252,204,6,.22), transparent 70%); animation: ptFade .6s ease both; }
-.pt-brand { position: relative; display: flex; flex-direction: column; align-items: center; gap: 18px; }
-.pt-logo { width: min(68vw, 360px); height: auto; animation: ptLogo .7s cubic-bezier(.2,.8,.2,1) .05s both; }
-.pt-line { display: block; height: 2px; width: min(52vw, 260px); border-radius: 2px; background: linear-gradient(90deg, transparent, #FCCC06, #E11E26, #FCCC06, transparent); transform-origin: center; animation: ptLine .6s cubic-bezier(.2,.8,.2,1) .3s both; }
+.pt-glow { position: absolute; inset: 0; background: radial-gradient(ellipse 45% 40% at 50% 50%, rgba(252,204,6,.22), transparent 70%); animation: ptFade .5s ease both; }
+.pt-brand { position: relative; display: flex; flex-direction: column; align-items: center; gap: 18px; animation: ptBrandOut .6s ease .8s both; }
+.pt-logo { width: min(68vw, 360px); height: auto; animation: ptLogo .6s cubic-bezier(.2,.8,.2,1) .05s both; }
+.pt-line { display: block; height: 2px; width: min(52vw, 260px); border-radius: 2px; background: linear-gradient(90deg, transparent, #FCCC06, #E11E26, #FCCC06, transparent); transform-origin: center; animation: ptLine .6s cubic-bezier(.2,.8,.2,1) .25s both; }
 .pt-edge { position: absolute; inset-inline: 0; bottom: 0; height: 4px; background: linear-gradient(90deg, #E11E26, #F09C1E, #FCCC06, #1F8A4C); }
-.page-enter { animation: pageIn .7s cubic-bezier(.2,.7,.2,1) 1.05s both; }
-@keyframes ptLogo { 0% { opacity: 0; transform: translateY(14px) scale(.94); filter: blur(4px); } 100% { opacity: 1; transform: none; filter: none; } }
+.page-enter { animation: pageFadeIn .7s ease .85s both; }
+@keyframes ptLogo { 0% { opacity: 0; transform: scale(.94); filter: blur(4px); } 100% { opacity: 1; transform: none; filter: none; } }
 @keyframes ptLine { 0% { transform: scaleX(0); opacity: 0; } 100% { transform: scaleX(1); opacity: 1; } }
 @keyframes ptFade { from { opacity: 0; } to { opacity: 1; } }
-@keyframes ptLift { 0% { transform: translateY(0); } 100% { transform: translateY(-100%); visibility: hidden; } }
+@keyframes ptOut { 0% { opacity: 1; } 100% { opacity: 0; visibility: hidden; } }
+@keyframes ptBrandOut { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1.06); } }
+@keyframes pageFadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+/* pageIn is still used by pop-ups and banners */
 @keyframes pageIn { 0% { opacity: 0; transform: translateY(24px); } 100% { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .pt-curtain { display: none; } .page-enter { animation: none; } }
 

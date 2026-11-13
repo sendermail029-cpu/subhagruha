@@ -51,7 +51,11 @@ export default function Header() {
     return () => window.removeEventListener("scroll", on);
   }, []);
 
-  useEffect(() => { setOpen(false); setSearchOpen(false); }, [path]);
+  useEffect(() => {
+    setOpen(false); setSearchOpen(false);
+    // close any open dropdown: release focus from the clicked menu link
+    (document.activeElement as HTMLElement | null)?.blur?.();
+  }, [path]);
 
   return (
     <>
@@ -93,7 +97,7 @@ export default function Header() {
                     <ul className="relative w-64 overflow-hidden rounded-2xl bg-white p-2 shadow-[0_24px_50px_-20px_rgba(74,10,13,.45)] ring-1 ring-brand-line before:absolute before:inset-x-0 before:top-0 before:h-[3px] before:bg-gradient-to-r before:from-brand-red before:via-brand-orange before:to-brand-gold">
                       {n.children.map((c) => (
                         <li key={c.href}>
-                          <Link href={c.href} className={`flex items-center gap-2.5 rounded-xl px-4 py-2.5 text-[14px] font-semibold transition hover:translate-x-1 hover:bg-brand-cream hover:text-brand-red focus:bg-brand-cream focus:text-brand-red focus:outline-none ${path === c.href ? "bg-brand-cream text-brand-red" : "text-brand-ink"}`}>
+                          <Link href={c.href} onClick={(e) => e.currentTarget.blur()} className={`flex items-center gap-2.5 rounded-xl px-4 py-2.5 text-[14px] font-semibold transition hover:translate-x-1 hover:bg-brand-cream hover:text-brand-red focus:bg-brand-cream focus:text-brand-red focus:outline-none ${path === c.href ? "bg-brand-cream text-brand-red" : "text-brand-ink"}`}>
                             {c.pin && <PinIcon className="h-4 w-4 shrink-0" />} {c.label}
                           </Link>
                         </li>
