@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" role="img" aria-labelledby="t">
+  <title id="t">Subhagruha Group of Companies</title>
+  <defs>
+    <linearGradient id="leg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE14A"/>
+      <stop offset=".3" stop-color="#FCB415"/>
+      <stop offset=".65" stop-color="#F0571E"/>
+      <stop offset="1" stop-color="#E11E26"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFF8C4"/>
+      <stop offset=".4" stop-color="#FFD43B" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#FCB415" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- emblem: sun rays + A-frame + SG -->
+  <g transform="translate(6 0)">
+    <g stroke="#E8312A" stroke-linecap="round" fill="none">
+      <path d="M110 34V4" stroke-width="2.6"/>
+      <path d="M103 35L98 9M117 35L122 9" stroke-width="1.8"/>
+      <path d="M96 37L86 13M124 37L134 13" stroke-width="2.2"/>
+      <path d="M90 41L74 20M130 41L146 20" stroke-width="1.8"/>
+      <path d="M85 46L63 29M135 46L157 29" stroke-width="2.2"/>
+      <path d="M81 52L55 40M139 52L165 40" stroke-width="1.8"/>
+      <path d="M78 59L49 52M142 59L171 52" stroke-width="2"/>
+      <path d="M77 66L46 65M143 66L174 65" stroke-width="1.6" opacity=".8"/>
+      <path d="M78 73L50 79M142 73L170 79" stroke-width="1.6" opacity=".65"/>
+    </g>
+    <circle cx="110" cy="58" r="34" fill="url(#glow)"/>
+    <path d="M108 44h4L50 222H22Z" fill="url(#leg)"/>
+    <path d="M108 44h4L198 222H170Z" fill="url(#leg)"/>
+    <text x="110" y="208" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-style="italic" font-size="48" textLength="104" lengthAdjust="spacingAndGlyphs" fill="#E11E26" stroke="#fff" stroke-width="2" paint-order="stroke">SG</text>
+    <path d="M30 214H190" stroke="#E11E26" stroke-width="2.5"/>
+    <text x="110" y="238" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="12.5" textLength="168" lengthAdjust="spacingAndGlyphs" fill="#E11E26">FOREVER HAPPINESS</text>
+  </g>
+
+  <!-- wordmark -->
+  <text x="250" y="108" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="76" textLength="728" lengthAdjust="spacingAndGlyphs" fill="#E11E26">SUBHAGRUHA</text>
+  <text x="614" y="152" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="29" textLength="440" lengthAdjust="spacingAndGlyphs" fill="#1F7A4D">GROUP OF COMPANIES</text>
+  <path d="M250 166H978" stroke="#3F9A6B" stroke-width="2.5"/>
+  <text x="614" y="214" text-anchor="middle" font-family="'Nirmala UI','Noto Sans Telugu','Telugu Sangam MN','Gautami','Mandali',sans-serif" font-size="44" textLength="560" lengthAdjust="spacingAndGlyphs" fill="#2E3D9E">అందమైన ఊహకు.. పొందికైన రూపం.</text>
+</svg>

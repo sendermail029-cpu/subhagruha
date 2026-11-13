@@ -1,0 +1,887 @@
+[
+ {
+  "city": "Hyderabad",
+  "items": [
+   {
+    "slug": "sukrithi-sampath",
+    "file": "https://subhagruha.com/uploads/1653026012.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Sampath"
+   },
+   {
+    "slug": "Sukrithi-Advika-bhanur-hyderabad",
+    "file": "https://subhagruha.com/uploads/1653025994.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Advika Bhanur Hyderabad"
+   },
+   {
+    "slug": "sukrithi-aawas",
+    "file": "https://subhagruha.com/uploads/1653026026.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Aawas"
+   },
+   {
+    "slug": "Subhagruha-Satvika-indresham-brochure",
+    "file": "https://subhagruha.com/uploads/1653411418.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Satvika Indresham"
+   },
+   {
+    "slug": "sukrithi-springs",
+    "file": "https://subhagruha.com/uploads/1653026247.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Springs"
+   },
+   {
+    "slug": "sukrithi-avanthika",
+    "file": "https://subhagruha.com/uploads/1653026798.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Avanthika"
+   },
+   {
+    "slug": "sukrithi-saanvi",
+    "file": "https://subhagruha.com/uploads/1653026907.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Saanvi"
+   },
+   {
+    "slug": "sukrithi-samyuktha-phase2",
+    "file": "https://subhagruha.com/uploads/1653026951.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Samyuktha Phase2"
+   },
+   {
+    "slug": "sukruthi-aarunya",
+    "file": "https://subhagruha.com/uploads/1653027005.pdf",
+    "kind": "Brochure",
+    "title": "Sukruthi Aarunya"
+   },
+   {
+    "slug": "sukriti-sampath",
+    "file": "https://subhagruha.com/uploads/1653027063.pdf",
+    "kind": "Brochure",
+    "title": "Sukriti Sampath"
+   },
+   {
+    "slug": "the-alankrita-iii",
+    "file": "https://subhagruha.com/uploads/1653027083.pdf",
+    "kind": "Brochure",
+    "title": "The Alankrita Iii"
+   },
+   {
+    "slug": "maple-springs",
+    "file": "https://subhagruha.com/uploads/1653027101.pdf",
+    "kind": "Brochure",
+    "title": "Maple Springs"
+   },
+   {
+    "slug": "tanavi-grove-rera-certificate",
+    "file": "https://subhagruha.com/uploads/1653217064.png",
+    "kind": "RERA Certificate",
+    "title": "Tanavi Grove"
+   },
+   {
+    "slug": "Sukrithi-Aarunya-Layout",
+    "file": "https://subhagruha.com/uploads/1653032487.pdf",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Aarunya"
+   },
+   {
+    "slug": "Sukrithi-Samprada-Brochure",
+    "file": "https://subhagruha.com/uploads/1653153417.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Samprada"
+   },
+   {
+    "slug": "Sukrithi-Samprada-rera-certificate",
+    "file": "https://subhagruha.com/uploads/1653154534.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Samprada"
+   },
+   {
+    "slug": "Sukrithi-samyuktha-phase2-rera-certificate",
+    "file": "https://subhagruha.com/uploads/1653198166.png",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Samyuktha Phase2"
+   },
+   {
+    "slug": "tanavi-grove-brochure",
+    "file": "https://subhagruha.com/uploads/1653236011.pdf",
+    "kind": "Brochure",
+    "title": "Tanavi Grove"
+   },
+   {
+    "slug": "Subhagruha-Samyuktha-Phase-1-Broacher",
+    "file": "https://subhagruha.com/uploads/1655921161.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Samyuktha Phase 1"
+   },
+   {
+    "slug": "Samyuktha-Phase-1-RERA-Certificate",
+    "file": "https://subhagruha.com/uploads/1655922783.png",
+    "kind": "RERA Certificate",
+    "title": "Samyuktha Phase 1"
+   },
+   {
+    "slug": "Subhagruha-Sukrithi-Ayatana-Brochure",
+    "file": "https://subhagruha.com/uploads/1656527945.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Sukrithi Ayatana"
+   },
+   {
+    "slug": "Samyuktha-Phase-2-Layout",
+    "file": "https://subhagruha.com/uploads/1660157842.pdf",
+    "kind": "Layout Plan",
+    "title": "Samyuktha Phase 2"
+   },
+   {
+    "slug": "Subhagruha-Samyukta-Phase-2-Extension-Rera",
+    "file": "https://subhagruha.com/uploads/1662263789.pdf",
+    "kind": "RERA Certificate",
+    "title": "Subhagruha Samyukta Phase 2 Extension"
+   },
+   {
+    "slug": "Subhagruha-Ayatana-Project-RERA-Certificate",
+    "file": "https://subhagruha.com/uploads/1685431178.pdf",
+    "kind": "RERA Certificate",
+    "title": "Subhagruha Ayatana Project"
+   },
+   {
+    "slug": "Sukrithi-IIT-County-Brochure",
+    "file": "https://subhagruha.com/uploads/1679250337.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi IIT County"
+   },
+   {
+    "slug": "Sukrithi-IIT-County-Layout",
+    "file": "https://subhagruha.com/uploads/1679250798.pdf",
+    "kind": "Layout Plan",
+    "title": "Sukrithi IIT County"
+   },
+   {
+    "slug": "sukrithi-iit-county-rera-certificate",
+    "file": "https://subhagruha.com/uploads/1680759445.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Iit County"
+   },
+   {
+    "slug": "Sukrithi-Pride-Layout-1",
+    "file": "https://subhagruha.com/uploads/1691827091.pdf",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Pride 1"
+   },
+   {
+    "slug": "Sukrithi-pride-phase-2-layout",
+    "file": "https://subhagruha.com/uploads/1767453557.pdf",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Pride Phase 2"
+   },
+   {
+    "slug": "Sukrithi-Pride-RERA-Phase-1",
+    "file": "https://subhagruha.com/uploads/1697525722.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Pride Phase 1"
+   },
+   {
+    "slug": "royal-rera-certificate",
+    "file": "https://subhagruha.com/uploads/1697536063.pdf",
+    "kind": "RERA Certificate",
+    "title": "Royal"
+   },
+   {
+    "slug": "finallayout",
+    "file": "https://subhagruha.com/uploads/1697536124.pdf",
+    "kind": "Layout Plan",
+    "title": "Finallayout"
+   },
+   {
+    "slug": "Sukrithi-Pride-Brochure",
+    "file": "https://subhagruha.com/uploads/1701367164.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Pride"
+   },
+   {
+    "slug": "Sukrithi-Delight_Layout",
+    "file": "https://subhagruha.com/uploads/1702546937.jpg",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Delight"
+   },
+   {
+    "slug": "Samyuktha-Layout-Phase1",
+    "file": "https://subhagruha.com/uploads/1702547254.pdf",
+    "kind": "Layout Plan",
+    "title": "Samyuktha Phase1"
+   },
+   {
+    "slug": "Maple-Springs-Layout",
+    "file": "https://subhagruha.com/uploads/1702547717.jpeg",
+    "kind": "Layout Plan",
+    "title": "Maple Springs"
+   },
+   {
+    "slug": "Sukrithi-Tech-Park-Layout",
+    "file": "https://subhagruha.com/uploads/1702548564.pdf",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Tech Park"
+   },
+   {
+    "slug": "Sukrithi-Ananthika-rera-certificate",
+    "file": "https://subhagruha.com/uploads/1710950273.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Ananthika"
+   },
+   {
+    "slug": "Tree-Shades-by-Subhagruha",
+    "file": "https://subhagruha.com/uploads/1734931641.pdf",
+    "kind": "Brochure",
+    "title": "Tree Shades By Subhagruha"
+   },
+   {
+    "slug": "Tree-Shades-Master-Plan-by-Subhagruha",
+    "file": "https://subhagruha.com/uploads/1734931676.jpg",
+    "kind": "Layout Plan",
+    "title": "Tree Shades Master Plan By Subhagruha"
+   },
+   {
+    "slug": "Tree-Shades-RERA-Certificate",
+    "file": "https://subhagruha.com/uploads/1738262156.pdf",
+    "kind": "RERA Certificate",
+    "title": "Tree Shades"
+   },
+   {
+    "slug": "Sukrithi-Pride-RERA-Certificate-2",
+    "file": "https://subhagruha.com/uploads/1767452791.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Pride 2"
+   },
+   {
+    "slug": "Sukrithi-Sahithi-Layout",
+    "file": "https://subhagruha.com/uploads/1773484612.pdf",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Sahithi"
+   },
+   {
+    "slug": "Sukrithi-Aarunya-Brochure",
+    "file": "https://subhagruha.com/uploads/1776012010.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Aarunya"
+   },
+   {
+    "slug": "Subhagruha-Sukrithi-Pride-Brochure",
+    "file": "https://subhagruha.com/uploads/1793381295.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Sukrithi Pride"
+   },
+   {
+    "slug": "Sukrithi-Pride-Brochure-3Phases",
+    "file": "https://subhagruha.com/uploads/1793678125.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Pride 3Phases"
+   }
+  ]
+ },
+ {
+  "city": "Visakhapatnam",
+  "items": [
+   {
+    "slug": "sukrithi-avanthika-vizag",
+    "file": "https://subhagruha.com/uploads/1653025896.jpg",
+    "kind": "Brochure",
+    "title": "Sukrithi Avanthika Vizag"
+   },
+   {
+    "slug": "sukriti-saanvi",
+    "file": "https://subhagruha.com/uploads/1767782239.pdf",
+    "kind": "Brochure",
+    "title": "Sukriti Saanvi"
+   },
+   {
+    "slug": "sukrithi-adya",
+    "file": "https://subhagruha.com/uploads/1653026291.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Adya"
+   },
+   {
+    "slug": "sukrithi-vasudha",
+    "file": "https://subhagruha.com/uploads/1653026313.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Vasudha"
+   },
+   {
+    "slug": "sukrithi-anantha",
+    "file": "https://subhagruha.com/uploads/1653026332.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Anantha"
+   },
+   {
+    "slug": "sukrithi-aria-1",
+    "file": "https://subhagruha.com/uploads/1653026640.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Aria 1"
+   },
+   {
+    "slug": "sukrithi-saharika",
+    "file": "https://subhagruha.com/uploads/1653026860.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Saharika"
+   },
+   {
+    "slug": "sahithi",
+    "file": "https://subhagruha.com/uploads/1653026892.pdf",
+    "kind": "Brochure",
+    "title": "Sahithi"
+   },
+   {
+    "slug": "sukrithi-nivas",
+    "file": "https://subhagruha.com/uploads/1653026926.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Nivas"
+   },
+   {
+    "slug": "maple-meadows",
+    "file": "https://subhagruha.com/uploads/1764600030.pdf",
+    "kind": "Brochure",
+    "title": "Maple Meadows"
+   },
+   {
+    "slug": "Sukrithi-Sathvik-Layout",
+    "file": "https://subhagruha.com/uploads/1684317380.jpg",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Sathvik"
+   },
+   {
+    "slug": "Sukrithi-Sathvik-Brochure",
+    "file": "https://subhagruha.com/uploads/1684317667.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Sathvik"
+   },
+   {
+    "slug": "Sukrithi-Sadan-Phase1",
+    "file": "https://subhagruha.com/uploads/1687765257.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Sadan Phase1"
+   },
+   {
+    "slug": "Sukrithi-Sadan-Phase1-RERA",
+    "file": "https://subhagruha.com/uploads/1687765430.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Sadan Phase1"
+   },
+   {
+    "slug": "Sukrithi-Sadan-Phase2-RERA",
+    "file": "https://subhagruha.com/uploads/1688035176.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Sadan Phase2"
+   },
+   {
+    "slug": "Sukrithi-Saanvi--Layout",
+    "file": "https://subhagruha.com/uploads/1767683293.pdf",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Saanvi"
+   },
+   {
+    "slug": "Sukrithi-Srujana-Brochure",
+    "file": "https://subhagruha.com/uploads/1700490883.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Srujana"
+   },
+   {
+    "slug": "Sukrithi-Saanvi-Phase-1-Rera",
+    "file": "https://subhagruha.com/uploads/1767779913.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Saanvi Phase 1"
+   },
+   {
+    "slug": "sukrithi-saavya-dakamarri-rera-certificate",
+    "file": "https://subhagruha.com/uploads/1755712780.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Saavya Dakamarri"
+   },
+   {
+    "slug": "sukrithi-saavya-dakamarri-vmrda-certificate",
+    "file": "https://subhagruha.com/uploads/1755712811.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Saavya Dakamarri Vmrda"
+   },
+   {
+    "slug": "sukrithi-saavya-dakamarri-brouchure",
+    "file": "https://subhagruha.com/uploads/1755712993.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Saavya Dakamarri Brouchure"
+   },
+   {
+    "slug": "Sukruthi-Ananthika",
+    "file": "https://subhagruha.com/uploads/1761732911.pdf",
+    "kind": "Brochure",
+    "title": "Sukruthi Ananthika"
+   },
+   {
+    "slug": "SUKRITI-SAADHVI-BROCHURE",
+    "file": "https://subhagruha.com/uploads/1762604155.pdf",
+    "kind": "Brochure",
+    "title": "SUKRITI SAADHVI"
+   },
+   {
+    "slug": "Sukrithi-Lohitha-brouchure",
+    "file": "https://subhagruha.com/uploads/1762797840.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Lohitha Brouchure"
+   },
+   {
+    "slug": "sukrithi-lohitha-rera-certificate-4",
+    "file": "https://subhagruha.com/uploads/1762798148.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Lohitha 4"
+   },
+   {
+    "slug": "SUKRUTHI-SIRI-BROUCHER",
+    "file": "https://subhagruha.com/uploads/1762943181.pdf",
+    "kind": "Brochure",
+    "title": "SUKRUTHI SIRI BROUCHER"
+   },
+   {
+    "slug": "SUKRUTHI-SAMPATH-1,-2,-brochure",
+    "file": "https://subhagruha.com/uploads/1763618720.pdf",
+    "kind": "Brochure",
+    "title": "SUKRUTHI SAMPATH 1, 2,"
+   },
+   {
+    "slug": "Subhagruha-Sukrithi-sampath-phase-3,-4,-5-brochure",
+    "file": "https://subhagruha.com/uploads/1763894094.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Sukrithi Sampath Phase 3, 4, 5"
+   },
+   {
+    "slug": "SUKRITHI-SAMPATH-PHASE-5-RERA-CERTIFICATE",
+    "file": "https://subhagruha.com/uploads/1764584435.pdf",
+    "kind": "RERA Certificate",
+    "title": "SUKRITHI SAMPATH PHASE 5"
+   },
+   {
+    "slug": "SUKRITHI-SAMPATH-PHASE-4-RERA-CERTIFICATE",
+    "file": "https://subhagruha.com/uploads/1764584592.pdf",
+    "kind": "RERA Certificate",
+    "title": "SUKRITHI SAMPATH PHASE 4"
+   },
+   {
+    "slug": "SUKRITHI-SAMPATH-PHASE-3-RERA-CERTIFICATE",
+    "file": "https://subhagruha.com/uploads/1764584747.pdf",
+    "kind": "RERA Certificate",
+    "title": "SUKRITHI SAMPATH PHASE 3"
+   },
+   {
+    "slug": "SUKRITHI-SAMPATH-PHASE-4-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764584909.pdf",
+    "kind": "Layout Plan",
+    "title": "SUKRITHI SAMPATH PHASE 4"
+   },
+   {
+    "slug": "SUKRITHI-SAMPATH-PHASE-3-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764584991.pdf",
+    "kind": "Layout Plan",
+    "title": "SUKRITHI SAMPATH PHASE 3"
+   },
+   {
+    "slug": "SUKRITHI-SAMPATH-LP-LETTER",
+    "file": "https://subhagruha.com/uploads/1764585113.pdf",
+    "kind": "Brochure",
+    "title": "SUKRITHI SAMPATH LP LETTER"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-1-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764599843.pdf",
+    "kind": "Layout Plan",
+    "title": "MAPLE MEADOWS 1"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-1-LP-LETTER",
+    "file": "https://subhagruha.com/uploads/1764600155.pdf",
+    "kind": "Brochure",
+    "title": "MAPLE MEADOWS 1 LP LETTER"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-2-LP-LETTER",
+    "file": "https://subhagruha.com/uploads/1764600517.pdf",
+    "kind": "Brochure",
+    "title": "MAPLE MEADOWS 2 LP LETTER"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-2-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764600677.pdf",
+    "kind": "Layout Plan",
+    "title": "MAPLE MEADOWS 2"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-3-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764600835.pdf",
+    "kind": "Layout Plan",
+    "title": "MAPLE MEADOWS 3"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-3-LP-LETTER",
+    "file": "https://subhagruha.com/uploads/1764601052.pdf",
+    "kind": "Brochure",
+    "title": "MAPLE MEADOWS 3 LP LETTER"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-4-LP-LETTER",
+    "file": "https://subhagruha.com/uploads/1764601213.pdf",
+    "kind": "Brochure",
+    "title": "MAPLE MEADOWS 4 LP LETTER"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-4-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764601390.pdf",
+    "kind": "Layout Plan",
+    "title": "MAPLE MEADOWS 4"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-5-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764601579.pdf",
+    "kind": "Layout Plan",
+    "title": "MAPLE MEADOWS 5"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-5-LP-LEETER",
+    "file": "https://subhagruha.com/uploads/1764601865.pdf",
+    "kind": "Brochure",
+    "title": "MAPLE MEADOWS 5 LP LEETER"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-6-LP-LETTER",
+    "file": "https://subhagruha.com/uploads/1764602118.pdf",
+    "kind": "Brochure",
+    "title": "MAPLE MEADOWS 6 LP LETTER"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-7-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764602329.pdf",
+    "kind": "Layout Plan",
+    "title": "MAPLE MEADOWS 7"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-7-LP-LETTER",
+    "file": "https://subhagruha.com/uploads/1764602520.pdf",
+    "kind": "Brochure",
+    "title": "MAPLE MEADOWS 7 LP LETTER"
+   },
+   {
+    "slug": "MAPLE--MEADOWS-8-LP-LETTER",
+    "file": "https://subhagruha.com/uploads/1764602721.pdf",
+    "kind": "Brochure",
+    "title": "MAPLE MEADOWS 8 LP LETTER"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-8-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764602877.pdf",
+    "kind": "Layout Plan",
+    "title": "MAPLE MEADOWS 8"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-9-LP-LEETER",
+    "file": "https://subhagruha.com/uploads/1764603042.pdf",
+    "kind": "Brochure",
+    "title": "MAPLE MEADOWS 9 LP LEETER"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-9-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764603153.pdf",
+    "kind": "Layout Plan",
+    "title": "MAPLE MEADOWS 9"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-10-LP-LEETER",
+    "file": "https://subhagruha.com/uploads/1764603265.pdf",
+    "kind": "Brochure",
+    "title": "MAPLE MEADOWS 10 LP LEETER"
+   },
+   {
+    "slug": "MAPLE-MEADOWS-10-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1764603361.pdf",
+    "kind": "Layout Plan",
+    "title": "MAPLE MEADOWS 10"
+   },
+   {
+    "slug": "Sukrithi-Saanvi-phase-2-Rera",
+    "file": "https://subhagruha.com/uploads/1767779992.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Saanvi Phase 2"
+   },
+   {
+    "slug": "Sukrithi-saanvi-phase3-rera",
+    "file": "https://subhagruha.com/uploads/1767795722.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Saanvi Phase3"
+   },
+   {
+    "slug": "Subhagruha-Aviation-City",
+    "file": "https://subhagruha.com/uploads/1769783998.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Aviation City"
+   },
+   {
+    "slug": "Subhagruha-Aviation-City-Vuda-Certificate",
+    "file": "https://subhagruha.com/uploads/1769784104.pdf",
+    "kind": "RERA Certificate",
+    "title": "Subhagruha Aviation City Vuda"
+   },
+   {
+    "slug": "Subhagruha-Aviation_City-Layout",
+    "file": "https://subhagruha.com/uploads/1769784345.pdf",
+    "kind": "Layout Plan",
+    "title": "Subhagruha Aviation City"
+   },
+   {
+    "slug": "Sukrithi-Saanvi-Phase1-Layout",
+    "file": "https://subhagruha.com/uploads/1773484904.PDF",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Saanvi Phase1"
+   },
+   {
+    "slug": "Sukrithi-Saanvi-Phase2-Layout",
+    "file": "https://subhagruha.com/uploads/1773484998.PDF",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Saanvi Phase2"
+   },
+   {
+    "slug": "Sukrithi-Saanvi-Phase3-Layout",
+    "file": "https://subhagruha.com/uploads/1773485117.PDF",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Saanvi Phase3"
+   },
+   {
+    "slug": "Pride-Broucher",
+    "file": "https://subhagruha.com/uploads/1774504235.pdf",
+    "kind": "Brochure",
+    "title": "Pride Broucher"
+   },
+   {
+    "slug": "Pride-Layout",
+    "file": "https://subhagruha.com/uploads/1774504771.pdf",
+    "kind": "Layout Plan",
+    "title": "Pride"
+   },
+   {
+    "slug": "SUKRITHI-SAMPATH-1-PHASE-3-LAYOUT",
+    "file": "https://subhagruha.com/uploads/1774509189.pdf",
+    "kind": "Layout Plan",
+    "title": "SUKRITHI SAMPATH 1 PHASE 3"
+   },
+   {
+    "slug": "Sukrithi-Sampath-Phase-6-RERA",
+    "file": "https://subhagruha.com/uploads/1781168969.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Sampath Phase 6"
+   },
+   {
+    "slug": "Sukrithi-Sampath-Phase-6-layout",
+    "file": "https://subhagruha.com/uploads/1781169224.pdf",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Sampath Phase 6"
+   },
+   {
+    "slug": "Sukrithi-Sampath-phase-6-LP-Letter",
+    "file": "https://subhagruha.com/uploads/1781169386.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Sampath Phase 6 LP Letter"
+   },
+   {
+    "slug": "Sukrithi-Saanvi-Phase-4-RERA",
+    "file": "https://subhagruha.com/uploads/1782272026.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Saanvi Phase 4"
+   },
+   {
+    "slug": "Sukrithi-Saanvi-Phase-4-layout",
+    "file": "https://subhagruha.com/uploads/1782272082.pdf",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Saanvi Phase 4"
+   },
+   {
+    "slug": "SUKRITHI-WINDSOR-rera-certificate-plots-in-visakhapatnam",
+    "file": "https://subhagruha.com/uploads/1783392002.pdf",
+    "kind": "RERA Certificate",
+    "title": "SUKRITHI WINDSOR Plots In Visakhapatnam"
+   },
+   {
+    "slug": "subhagruha-sukrithi-saanvi-phase4-brochure-plots-in-thagarapuvalasa-vizag",
+    "file": "https://subhagruha.com/uploads/1783393319.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Sukrithi Saanvi Phase4 Plots In Thagarapuvalasa Vizag"
+   },
+   {
+    "slug": "Sukrithi-Windsor-Brochure-plots-in-visakhapatnam",
+    "file": "https://subhagruha.com/uploads/1783568762.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Windsor Plots In Visakhapatnam"
+   }
+  ]
+ },
+ {
+  "city": "Vijayawada",
+  "items": [
+   {
+    "slug": "sukriti-anwita",
+    "file": "https://subhagruha.com/uploads/1653026348.pdf",
+    "kind": "Brochure",
+    "title": "Sukriti Anwita"
+   },
+   {
+    "slug": "sukrithi-pravaraa",
+    "file": "https://subhagruha.com/uploads/1653026381.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Pravaraa"
+   },
+   {
+    "slug": "suncity",
+    "file": "https://subhagruha.com/uploads/1653026394.pdf",
+    "kind": "Brochure",
+    "title": "Suncity"
+   },
+   {
+    "slug": "sukrithi-aapya",
+    "file": "https://subhagruha.com/uploads/1653026407.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Aapya"
+   },
+   {
+    "slug": "sukrithi-anvika-phase-2",
+    "file": "https://subhagruha.com/uploads/1653026425.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Anvika Phase 2"
+   },
+   {
+    "slug": "sukrithi-ananda",
+    "file": "https://subhagruha.com/uploads/1653026442.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Ananda"
+   },
+   {
+    "slug": "sukrithi-anvika",
+    "file": "https://subhagruha.com/uploads/1653026459.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Anvika"
+   },
+   {
+    "slug": "sukrithi-aria-2",
+    "file": "https://subhagruha.com/uploads/1653026478.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Aria 2"
+   },
+   {
+    "slug": "sukrithi-avanthi",
+    "file": "https://subhagruha.com/uploads/1653026497.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Avanthi"
+   },
+   {
+    "slug": "sukriti-nivas-1",
+    "file": "https://subhagruha.com/uploads/1653026526.pdf",
+    "kind": "Brochure",
+    "title": "Sukriti Nivas 1"
+   },
+   {
+    "slug": "sukriti-udbhava",
+    "file": "https://subhagruha.com/uploads/1653026543.pdf",
+    "kind": "Brochure",
+    "title": "Sukriti Udbhava"
+   },
+   {
+    "slug": "sukriti-delight",
+    "file": "https://subhagruha.com/uploads/1653026568.pdf",
+    "kind": "Brochure",
+    "title": "Sukriti Delight"
+   },
+   {
+    "slug": "sukrithi-hills",
+    "file": "https://subhagruha.com/uploads/1653026610.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Hills"
+   },
+   {
+    "slug": "sukrithi-ananthika",
+    "file": "https://subhagruha.com/uploads/1653026670.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Ananthika"
+   },
+   {
+    "slug": "sikruthi-tech-park",
+    "file": "https://subhagruha.com/uploads/1653026709.pdf",
+    "kind": "Brochure",
+    "title": "Sikruthi Tech Park"
+   },
+   {
+    "slug": "sukrithi-royal",
+    "file": "https://subhagruha.com/uploads/1653026738.pdf",
+    "kind": "Brochure",
+    "title": "Sukrithi Royal"
+   },
+   {
+    "slug": "Subhagruha-Ananda-Phase-I-&amp;-II",
+    "file": "https://subhagruha.com/brouchers/Subhagruha-Ananda-Phase-I-&amp;-II",
+    "kind": "Brochure",
+    "title": "Subhagruha Ananda Phase I &Amp; II"
+   },
+   {
+    "slug": "Subhagruha-Ananda-Phase-2-RERA-Certificate",
+    "file": "https://subhagruha.com/uploads/1721240795.pdf",
+    "kind": "RERA Certificate",
+    "title": "Subhagruha Ananda Phase 2"
+   },
+   {
+    "slug": "Subhagruha-Anantha-Nithya",
+    "file": "https://subhagruha.com/uploads/1721554937.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Anantha Nithya"
+   },
+   {
+    "slug": "Subhagruha-Anantha-Nithya-RERA-Certificate",
+    "file": "https://subhagruha.com/uploads/1721555005.pdf",
+    "kind": "RERA Certificate",
+    "title": "Subhagruha Anantha Nithya"
+   },
+   {
+    "slug": "Sukrithi-Aria-Phase-2-RERA-Certificate",
+    "file": "https://subhagruha.com/uploads/1722276580.pdf",
+    "kind": "RERA Certificate",
+    "title": "Sukrithi Aria Phase 2"
+   },
+   {
+    "slug": "Sukrithi-Aria-Phase-2-layout",
+    "file": "https://subhagruha.com/uploads/1722276708.pdf",
+    "kind": "Layout Plan",
+    "title": "Sukrithi Aria Phase 2"
+   },
+   {
+    "slug": "subhagruha-sukrithi-signature-rera-certificate-vijayawada",
+    "file": "https://subhagruha.com/uploads/1754844180.pdf",
+    "kind": "RERA Certificate",
+    "title": "Subhagruha Sukrithi Signature Vijayawada"
+   },
+   {
+    "slug": "subhagruha-sukrithi-signature-vijayawada-brochure",
+    "file": "https://subhagruha.com/uploads/1754844460.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Sukrithi Signature Vijayawada"
+   },
+   {
+    "slug": "subhagruha-sukrithi-signature-vijayawada-layout",
+    "file": "https://subhagruha.com/uploads/1754844525.pdf",
+    "kind": "Layout Plan",
+    "title": "Subhagruha Sukrithi Signature Vijayawada"
+   },
+   {
+    "slug": "subhagruha-sukrithi-signature-vijayawada-leaftlet",
+    "file": "https://subhagruha.com/uploads/1754844711.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Sukrithi Signature Vijayawada Leaftlet"
+   },
+   {
+    "slug": "subhagruha-sukrithi-signature-vijayawada-LP",
+    "file": "https://subhagruha.com/uploads/1754845147.pdf",
+    "kind": "Brochure",
+    "title": "Subhagruha Sukrithi Signature Vijayawada LP"
+   }
+  ]
+ }
+]
