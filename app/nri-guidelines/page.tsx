@@ -99,7 +99,7 @@ export default function NriPage() {
             <div key={k.l} data-aos="fade-up" data-aos-delay={i * 100} className="flex items-center gap-4">
               <span className={`grid h-12 w-12 shrink-0 place-items-center rounded-full bg-gradient-to-br ${k.tone} text-xl font-bold text-white`}>{k.icon}</span>
               <span className="min-w-0">
-                <span className="block text-[11px] font-bold uppercase tracking-[0.2em] text-brand-red">{k.l}</span>
+                <span className="block text-[0.6875rem] font-bold uppercase tracking-[0.2em] text-brand-red">{k.l}</span>
                 <b className="block font-display text-xl font-bold text-brand-ink">{k.v}</b>
                 <span className="text-sm text-brand-muted">{k.d}</span>
               </span>
@@ -112,11 +112,11 @@ export default function NriPage() {
         <div className="wrap grid gap-10 lg:grid-cols-[260px_1fr] lg:gap-16">
           {/* contents */}
           <aside className="lg:sticky lg:top-28 lg:self-start" data-aos="fade-right">
-            <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-brand-red">On this page</p>
+            <p className="text-[0.6875rem] font-bold uppercase tracking-[0.22em] text-brand-red">On this page</p>
             <ol className="mt-5 border-l-2 border-brand-line">
               {SECTIONS.map((s, i) => (
                 <li key={s.id}>
-                  <a href={`#${s.id}`} className="-ml-[2px] flex gap-3 border-l-2 border-transparent py-2 pl-4 text-[14px] leading-snug text-brand-muted transition hover:border-brand-red hover:text-brand-ink">
+                  <a href={`#${s.id}`} className="-ml-[2px] flex gap-3 border-l-2 border-transparent py-2 pl-4 text-[0.875rem] leading-snug text-brand-muted transition hover:border-brand-red hover:text-brand-ink">
                     <span className="font-semibold text-brand-red">{String(i + 1).padStart(2, "0")}</span>
                     {s.h.replace(/^Acquisition (&|or) transfer of (immovable )?property in India by /i, "").replace(/^\w/, (c) => c.toUpperCase())}
                   </a>
@@ -129,7 +129,7 @@ export default function NriPage() {
           <div className="nri-prose min-w-0 divide-y divide-brand-line">
             {SECTIONS.map((sec, i) => (
               <article key={sec.id} id={sec.id} data-aos="fade-up" className="prose-blog scroll-mt-28 py-10 first:pt-0">
-                <p className="not-prose text-[12px] font-bold uppercase tracking-[0.22em] text-brand-red">Section {String(i + 1).padStart(2, "0")}</p>
+                <p className="not-prose text-[0.75rem] font-bold uppercase tracking-[0.22em] text-brand-red">Section {String(i + 1).padStart(2, "0")}</p>
                 <h2 className="!mt-2">{sec.h}</h2>
                 {sec.body}
               </article>

@@ -49,9 +49,9 @@ export default function CityProjects({ city }: { city: CityInfo }) {
               <Tilt key={c.name} max={8} className="card-3d group overflow-hidden !rounded-2xl"><figure>
                 <div className="relative aspect-[4/3] overflow-hidden bg-brand-green-soft">
                   <Image src={c.image} alt={`${c.name} – completed Subhagruha project in ${city.name}`} fill sizes="(max-width:768px) 50vw, 25vw" className="object-cover transition duration-700 group-hover:scale-105" />
-                  <span className="absolute left-2.5 top-2.5 rounded-full bg-brand-green px-2.5 py-0.5 text-[10px] font-extrabold uppercase tracking-wider text-white">✓ Completed</span>
+                  <span className="absolute left-2.5 top-2.5 rounded-full bg-brand-green px-2.5 py-0.5 text-[0.625rem] font-extrabold uppercase tracking-wider text-white">✓ Completed</span>
                 </div>
-                <figcaption className="px-4 py-3 text-[15px] font-bold leading-snug text-brand-green-dark">{c.name}</figcaption>
+                <figcaption className="px-4 py-3 text-[0.9375rem] font-bold leading-snug text-brand-green-dark">{c.name}</figcaption>
               </figure></Tilt>
             ))}
           </div>

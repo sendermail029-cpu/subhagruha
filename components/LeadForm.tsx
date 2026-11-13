@@ -101,7 +101,7 @@ export default function LeadForm({ variant = "appointment", defaultProject = "" 
         projectSelect
       )}
 
-      <button type="submit" className="flex w-full items-center justify-center gap-2 rounded-full bg-[#25d366] px-6 py-3.5 text-[15px] font-bold text-white shadow-[0_5px_0_#1a9e4b,0_16px_28px_-10px_rgba(37,211,102,.6)] transition hover:-translate-y-0.5 hover:bg-[#20c25c] active:translate-y-[3px] active:shadow-[0_2px_0_#1a9e4b]"><WhatsAppIcon className="h-5 w-5" />{variant === "appointment" ? "Book Visit on WhatsApp" : "Get Deals on WhatsApp"}</button>
+      <button type="submit" className="flex w-full items-center justify-center gap-2 rounded-full bg-[#25d366] px-6 py-3.5 text-[0.9375rem] font-bold text-white shadow-[0_5px_0_#1a9e4b,0_16px_28px_-10px_rgba(37,211,102,.6)] transition hover:-translate-y-0.5 hover:bg-[#20c25c] active:translate-y-[3px] active:shadow-[0_2px_0_#1a9e4b]"><WhatsAppIcon className="h-5 w-5" />{variant === "appointment" ? "Book Visit on WhatsApp" : "Get Deals on WhatsApp"}</button>
       <p className="text-center text-xs text-brand-muted">🔒 Your details are safe with us · Instant reply on WhatsApp</p>
     </form>
   );

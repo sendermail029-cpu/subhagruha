@@ -49,7 +49,7 @@ export default function PageHero({ title, accent, intro, crumbs, children, image
   return (
     <>
       <JsonLd data={breadcrumbSchema(all)} />
-      <section className={`relative isolate flex items-center overflow-hidden bg-brand-green-deep text-white ${height ?? "min-h-[300px] md:min-h-[420px]"}`}>
+      <section className={`relative isolate flex items-center overflow-hidden bg-brand-green-deep text-white ${height ?? "min-h-[18.75rem] md:min-h-[26.25rem]"}`}>
         {background ? (
           <div aria-hidden className="absolute inset-0 -z-30">{background}</div>
         ) : slides && slides.length > 0 ? (
@@ -76,7 +76,7 @@ export default function PageHero({ title, accent, intro, crumbs, children, image
             <span className="h-1.5 w-1.5 rotate-45 bg-brand-gold" />
             <span className="h-px w-14 bg-gradient-to-l from-transparent to-brand-gold" />
           </div>
-          {intro && <p className="mx-auto mt-4 max-w-2xl text-[13px] font-medium uppercase leading-relaxed tracking-[0.2em] text-white/90 md:text-sm">{intro}</p>}
+          {intro && <p className="mx-auto mt-4 max-w-2xl text-[0.8125rem] font-medium uppercase leading-relaxed tracking-[0.2em] text-white/90 md:text-sm">{intro}</p>}
           {children}
         </div>
         <div aria-hidden className="absolute inset-x-0 bottom-0 h-[3px] bg-gradient-to-r from-brand-red via-brand-orange to-brand-gold" />

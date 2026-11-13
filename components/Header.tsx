@@ -59,7 +59,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-brand-green-deep via-brand-green to-brand-green-deep text-[13px] text-white/90">
+      <div className="bg-gradient-to-r from-brand-green-deep via-brand-green to-brand-green-deep text-[0.8125rem] text-white/90">
         <div className="wrap flex flex-wrap items-center justify-between gap-3 py-2">
           <div className="flex flex-wrap items-center gap-x-5 gap-y-1">
             {SITE.phones.map((p) => (
@@ -84,7 +84,7 @@ export default function Header() {
             <Image src="/logo.svg" alt="Subhagruha Group of Companies logo" width={240} height={60} priority unoptimized className="h-12 w-auto sm:h-14" />
           </Link>
 
-          <nav aria-label="Main" className="hidden items-center gap-6 text-[15px] font-semibold lg:flex xl:gap-7">
+          <nav aria-label="Main" className="hidden items-center gap-6 text-[0.9375rem] font-semibold lg:flex xl:gap-7">
             {NAV.map((n) => {
               const active = isActive(path, n);
               const base = `relative flex items-center gap-1 py-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-brand-red after:transition-all ${active ? "text-brand-red after:w-full" : "after:w-0"}`;
@@ -97,7 +97,7 @@ export default function Header() {
                     <ul className="relative w-64 overflow-hidden rounded-2xl bg-white p-2 shadow-[0_24px_50px_-20px_rgba(74,10,13,.45)] ring-1 ring-brand-line before:absolute before:inset-x-0 before:top-0 before:h-[3px] before:bg-gradient-to-r before:from-brand-red before:via-brand-orange before:to-brand-gold">
                       {n.children.map((c) => (
                         <li key={c.href}>
-                          <Link href={c.href} onClick={(e) => e.currentTarget.blur()} className={`flex items-center gap-2.5 rounded-xl px-4 py-2.5 text-[14px] font-semibold transition hover:translate-x-1 hover:bg-brand-cream hover:text-brand-red focus:bg-brand-cream focus:text-brand-red focus:outline-none ${path === c.href ? "bg-brand-cream text-brand-red" : "text-brand-ink"}`}>
+                          <Link href={c.href} onClick={(e) => e.currentTarget.blur()} className={`flex items-center gap-2.5 rounded-xl px-4 py-2.5 text-[0.875rem] font-semibold transition hover:translate-x-1 hover:bg-brand-cream hover:text-brand-red focus:bg-brand-cream focus:text-brand-red focus:outline-none ${path === c.href ? "bg-brand-cream text-brand-red" : "text-brand-ink"}`}>
                             {c.pin && <PinIcon className="h-4 w-4 shrink-0" />} {c.label}
                           </Link>
                         </li>
@@ -143,7 +143,7 @@ export default function Header() {
                     {sub === n.label && (
                       <div className="mb-3 flex flex-col rounded-xl bg-brand-cream">
                         {n.children.map((c) => (
-                          <Link key={c.href} href={c.href} onClick={() => setOpen(false)} className="flex items-center gap-2 px-4 py-3 text-[15px] font-semibold text-brand-green-dark">
+                          <Link key={c.href} href={c.href} onClick={() => setOpen(false)} className="flex items-center gap-2 px-4 py-3 text-[0.9375rem] font-semibold text-brand-green-dark">
                             {c.pin && <PinIcon className="h-4 w-4 text-brand-red" />} {c.label}
                           </Link>
                         ))}

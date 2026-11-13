@@ -11,7 +11,7 @@ export default function BrochureSearch() {
       onSubmit={(e) => { e.preventDefault(); send(q); document.getElementById("documents")?.scrollIntoView({ behavior: "smooth" }); }}>
       <input type="search" value={q} placeholder="Search brochures, layouts, RERA certificates…" aria-label="Search documents"
         onChange={(e) => { setQ(e.target.value); send(e.target.value); }}
-        className="min-w-0 flex-1 bg-transparent px-6 text-[15px] text-brand-ink outline-none [text-shadow:none] placeholder:text-brand-muted" />
+        className="min-w-0 flex-1 bg-transparent px-6 text-[0.9375rem] text-brand-ink outline-none [text-shadow:none] placeholder:text-brand-muted" />
       <button type="submit" aria-label="Search" className="grid w-16 shrink-0 place-items-center bg-brand-red text-white transition hover:bg-brand-red-dark">
         <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" aria-hidden><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
       </button>

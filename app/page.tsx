@@ -50,7 +50,7 @@ export default function Home() {
       {/* RERA TICKER */}
       <div className="overflow-hidden whitespace-nowrap bg-gradient-to-r from-brand-gold to-brand-orange text-sm font-bold text-brand-green-deep" aria-label="RERA registration numbers">
         <div className="inline-flex animate-ticker gap-12 py-3">
-          {[...rera, ...rera].map((t, i) => <span key={i} className="before:mr-3 before:text-[10px] before:content-['◆']">{t}</span>)}
+          {[...rera, ...rera].map((t, i) => <span key={i} className="before:mr-3 before:text-[0.625rem] before:content-['◆']">{t}</span>)}
         </div>
       </div>
 
@@ -84,7 +84,7 @@ export default function Home() {
             </p>
             <ul className="my-7 grid gap-3.5 sm:grid-cols-2">
               {["Clear, legally verified titles", "100% Vastu-compliant layouts", "Wide BT internal roads", "Underground infrastructure", "Landscaped green spaces", "Transparent, ethical dealings"].map((c) => (
-                <li key={c} className="flex items-start gap-2.5 text-[15px] font-semibold">
+                <li key={c} className="flex items-start gap-2.5 text-[0.9375rem] font-semibold">
                   <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-brand-green-soft text-xs font-extrabold text-brand-green">✓</span>{c}
                 </li>
               ))}
@@ -118,7 +118,7 @@ export default function Home() {
               <article key={c.name} className="overflow-hidden rounded-3xl border border-brand-line bg-brand-cream">
                 <div className="relative aspect-[16/11]">
                   <Image src={c.image} alt={`${c.name} – completed project in ${c.city}`} fill sizes="(max-width:768px) 100vw, 33vw" className="object-cover" />
-                  <span className="absolute left-3.5 top-3.5 rounded-full bg-brand-gold px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider text-brand-green-deep">Completed</span>
+                  <span className="absolute left-3.5 top-3.5 rounded-full bg-brand-gold px-3 py-1 text-[0.6875rem] font-extrabold uppercase tracking-wider text-brand-green-deep">Completed</span>
                 </div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-brand-green-dark">{c.name}</h3>

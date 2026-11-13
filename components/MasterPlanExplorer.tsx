@@ -37,14 +37,14 @@ export default function MasterPlanExplorer({ plans }: { plans: MasterPlan[] }) {
           p.isPdf ? (
             <a key={p.url} href={p.url} target="_blank" rel="noopener noreferrer" className="group flex flex-col overflow-hidden rounded-2xl border border-brand-line bg-white transition hover:-translate-y-1 hover:shadow-card">
               <span className="grid aspect-[4/3] place-items-center bg-brand-red-soft text-3xl font-black text-brand-red">PDF</span>
-              <span className="p-3.5"><span className="block text-sm font-bold leading-snug text-brand-green-dark group-hover:text-brand-red">{p.name}</span><span className="text-[11px] font-bold uppercase tracking-wider text-brand-muted">{p.authority}</span></span>
+              <span className="p-3.5"><span className="block text-sm font-bold leading-snug text-brand-green-dark group-hover:text-brand-red">{p.name}</span><span className="text-[0.6875rem] font-bold uppercase tracking-wider text-brand-muted">{p.authority}</span></span>
             </a>
           ) : (
             <button key={p.url} onClick={() => setOpen(p)} className="group flex flex-col overflow-hidden rounded-2xl border border-brand-line bg-white text-left transition hover:-translate-y-1 hover:shadow-card">
               <span className="relative block aspect-[4/3] w-full overflow-hidden bg-brand-green-soft">
                 <Image src={p.thumb ?? p.url} alt={p.name} fill sizes="(max-width:768px) 50vw, 25vw" className="object-cover transition duration-500 group-hover:scale-105" />
               </span>
-              <span className="p-3.5"><span className="block text-sm font-bold leading-snug text-brand-green-dark group-hover:text-brand-red">{p.name}</span><span className="text-[11px] font-bold uppercase tracking-wider text-brand-muted">{p.authority}</span></span>
+              <span className="p-3.5"><span className="block text-sm font-bold leading-snug text-brand-green-dark group-hover:text-brand-red">{p.name}</span><span className="text-[0.6875rem] font-bold uppercase tracking-wider text-brand-muted">{p.authority}</span></span>
             </button>
           ),
         )}

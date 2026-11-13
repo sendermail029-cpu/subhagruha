@@ -12,7 +12,7 @@ const LINKS = [
 ];
 
 const Heading = ({ children }: { children: React.ReactNode }) => (
-  <h2 className="mb-5 flex items-center gap-3 font-sans text-[13px] font-bold uppercase tracking-[0.2em] text-brand-gold">
+  <h2 className="mb-5 flex items-center gap-3 font-sans text-[0.8125rem] font-bold uppercase tracking-[0.2em] text-brand-gold">
     <span className="h-px w-6 bg-brand-gold/60" />{children}
   </h2>
 );
@@ -37,8 +37,8 @@ export default function Footer() {
               <Image src="/logo.svg" alt="Subhagruha Group of Companies" width={288} height={72} unoptimized className="h-14 w-auto" />
             </Link>
             <p className="mt-6 leading-relaxed">Premium gated-community and villa plots in Hyderabad, Visakhapatnam and Vijayawada since {SITE.founded}.</p>
-            <p className="mt-3 text-[15px] font-semibold text-brand-gold">{SITE.teluguTagline}</p>
-            <p className="mt-6 text-[11px] font-bold uppercase tracking-[0.2em] text-brand-gold">Follow us</p>
+            <p className="mt-3 text-[0.9375rem] font-semibold text-brand-gold">{SITE.teluguTagline}</p>
+            <p className="mt-6 text-[0.6875rem] font-bold uppercase tracking-[0.2em] text-brand-gold">Follow us</p>
             <SocialLinks className="mt-3" />
           </div>
 
@@ -48,7 +48,7 @@ export default function Footer() {
               {CITIES.map((c) => (
                 <li key={c.slug} className="flex items-center justify-between gap-3">
                   <FLink href={`/projects/${c.slug}`}>{c.name}</FLink>
-                  <span className="rounded-full bg-white/[.06] px-2 py-0.5 text-[11px] text-white/50">{PROJECTS.filter((p) => p.city === c.name).length}</span>
+                  <span className="rounded-full bg-white/[.06] px-2 py-0.5 text-[0.6875rem] text-white/50">{PROJECTS.filter((p) => p.city === c.name).length}</span>
                 </li>
               ))}
               <li><FLink href="/projects">All Projects</FLink></li>

@@ -91,7 +91,7 @@ export default async function ProjectPage({ params }: Params) {
         <div className="wrap grid gap-10 lg:grid-cols-[1.5fr_1fr]">
           <div>
             <h2 className="section-title !text-4xl">Project Overview</h2>
-            <p className="mt-3 text-[17px] text-brand-muted">{p.summary}</p>
+            <p className="mt-3 text-[1.0625rem] text-brand-muted">{p.summary}</p>
             <div className="mt-5 flex flex-wrap gap-2">{p.tags.map((t) => <span key={t} className="chip">{t}</span>)}</div>
 
             <h2 className="mt-12 flex items-center gap-3 font-sans text-xl font-bold text-brand-green-dark"><span className="h-0.5 w-6 bg-brand-red" />Salient Features</h2>
@@ -101,7 +101,7 @@ export default async function ProjectPage({ params }: Params) {
                   <span className="grid h-14 w-14 place-items-center rounded-2xl bg-gradient-to-br from-brand-red-soft to-[#FFF2DC] text-brand-red transition duration-300 group-hover:from-brand-red group-hover:to-brand-orange group-hover:text-white">
                     <AmenityIcon name={a} className="h-7 w-7" />
                   </span>
-                  <span className="text-[14px] font-semibold leading-snug text-brand-ink">{a}</span>
+                  <span className="text-[0.875rem] font-semibold leading-snug text-brand-ink">{a}</span>
                 </li>
               ))}
             </ul>

@@ -5,7 +5,7 @@ import { WhatsAppIcon } from "./Icons";
 
 export default function CareerForm({ positions }: { positions: string[] }) {
   const [sent, setSent] = useState(false);
-  const field = "h-12 w-full rounded-xl border border-brand-line bg-white px-4 text-[15px] outline-none focus:border-brand-green";
+  const field = "h-12 w-full rounded-xl border border-brand-line bg-white px-4 text-[0.9375rem] outline-none focus:border-brand-green";
 
   function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();

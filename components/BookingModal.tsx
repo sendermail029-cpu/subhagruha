@@ -38,7 +38,7 @@ export default function BookingModal() {
       <div className="relative max-h-[92vh] w-full overflow-y-auto rounded-t-[1.75rem] bg-white shadow-2xl animate-[pageIn_.35s_cubic-bezier(.2,.7,.2,1)_both] sm:max-w-xl sm:rounded-[1.75rem]">
         <div className="sticky top-0 z-10 flex items-start justify-between gap-4 border-b border-brand-line bg-white/95 px-6 pb-4 pt-6 backdrop-blur sm:px-8">
           <div>
-            <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-brand-red">Free site visit</p>
+            <p className="text-[0.6875rem] font-bold uppercase tracking-[0.22em] text-brand-red">Free site visit</p>
             <h2 className="mt-1 text-3xl font-semibold text-brand-ink">Book a site visit</h2>
             <p className="mt-1 text-sm text-brand-muted">Fill in your details — we&apos;ll confirm on WhatsApp.</p>
           </div>

@@ -22,14 +22,14 @@ export default function OfficeLocator() {
       <div className="mt-12 grid gap-10 md:grid-cols-3 md:gap-0 md:divide-x md:divide-brand-line">
         {offices.map((o, i) => (
           <address key={o.city} className="not-italic md:px-8 md:first:pl-0 md:last:pr-0" data-aos="fade-up" data-aos-delay={i * 100}>
-            <p className={`flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.22em] ${i === 0 ? "text-brand-red" : "text-brand-orange"}`}>
+            <p className={`flex items-center gap-2 text-[0.6875rem] font-bold uppercase tracking-[0.22em] ${i === 0 ? "text-brand-red" : "text-brand-orange"}`}>
               <PinIcon className="h-3.5 w-3.5" />{o.type}
             </p>
             <h3 className="mt-2 text-3xl font-semibold text-brand-ink" style={{ fontFamily: "var(--font-serif)" }}>
               {o.city} <span className="font-sans text-sm font-medium text-brand-muted">· {o.region}</span>
             </h3>
             <span aria-hidden className="mt-3 block h-px w-12 bg-gradient-to-r from-brand-gold to-transparent" />
-            <p className="mt-4 text-[15px] leading-relaxed text-brand-muted">{o.street}, {o.locality} – {o.postal}</p>
+            <p className="mt-4 text-[0.9375rem] leading-relaxed text-brand-muted">{o.street}, {o.locality} – {o.postal}</p>
             <div className="mt-4 space-y-1.5 text-sm font-semibold text-brand-ink">
               <a href={`tel:${SITE.phones[0].dial}`} className="flex items-center gap-2 hover:text-brand-red"><PhoneIcon className="h-4 w-4 text-brand-red" />{SITE.phones[0].display}</a>
               <a href={`mailto:${SITE.email}`} className="flex items-center gap-2 hover:text-brand-red"><MailIcon className="h-4 w-4 text-brand-red" />{SITE.email}</a>

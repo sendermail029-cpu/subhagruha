@@ -70,14 +70,14 @@ export default function AdminPage() {
   }
 
   const card = "rounded-3xl bg-white p-6 shadow-[0_24px_50px_-30px_rgba(74,10,13,.45)] ring-1 ring-brand-line md:p-8";
-  const input = "h-12 w-full rounded-xl border border-brand-line bg-white px-4 text-[15px] outline-none focus:border-brand-red";
+  const input = "h-12 w-full rounded-xl border border-brand-line bg-white px-4 text-[0.9375rem] outline-none focus:border-brand-red";
 
   return (
     <section className="min-h-[70vh] bg-brand-cream py-12">
       <div className="wrap max-w-4xl">
         <div className="mb-8 flex items-center justify-between gap-4">
           <div>
-            <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-brand-red">Admin panel</p>
+            <p className="text-[0.6875rem] font-bold uppercase tracking-[0.22em] text-brand-red">Admin panel</p>
             <h1 className="text-4xl font-semibold text-brand-ink">Popup poster</h1>
           </div>
           {state === "ready" && <button onClick={logout} className="rounded-full px-4 py-2 text-sm font-bold text-brand-muted ring-1 ring-brand-line hover:text-brand-red">Log out</button>}

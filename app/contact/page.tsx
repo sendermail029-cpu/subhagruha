@@ -32,7 +32,7 @@ export default function ContactPage() {
     <>
       <PageHero title="Contact" accent="Us" intro="We are here to help"
         crumbs={[{ name: "Contact Us", path: "/contact" }]}
-        images={["/images/contact-hero.webp"]} focus="40% 25%" overlay={false} height="min-h-[320px] md:min-h-[460px]" />
+        images={["/images/contact-hero.webp"]} focus="40% 25%" overlay={false} height="min-h-[20rem] md:min-h-[28.75rem]" />
 
       {/* trust strip */}
       <section className="relative bg-white">
@@ -83,7 +83,7 @@ export default function ContactPage() {
                           <Icon className="h-5 w-5" />
                         </span>
                         <span className="min-w-0">
-                          <span className="block text-[11px] font-bold uppercase tracking-[0.18em] text-white/60">{label}</span>
+                          <span className="block text-[0.6875rem] font-bold uppercase tracking-[0.18em] text-white/60">{label}</span>
                           <span className="block truncate text-base font-bold md:text-lg">{value}</span>
                         </span>
                         <span className="ml-auto text-brand-gold transition group-hover:translate-x-1">→</span>
@@ -93,14 +93,14 @@ export default function ContactPage() {
                 </ul>
 
                 <div className="relative mt-8 flex flex-wrap items-center gap-4">
-                  <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-brand-gold">Follow us</span>
+                  <span className="text-[0.6875rem] font-bold uppercase tracking-[0.2em] text-brand-gold">Follow us</span>
                   <SocialLinks />
                 </div>
 
                 <ul className="relative mt-8 grid gap-2 border-t border-white/15 pt-6 text-sm text-white/85 sm:grid-cols-2 lg:mt-auto">
                   {["Corporate office in Hyderabad", "Branches in Vijayawada & Vizag", "Pick-up & drop for site visits", "Support for NRI buyers"].map((t) => (
                     <li key={t} className="flex items-start gap-2">
-                      <span className="mt-0.5 grid h-4 w-4 shrink-0 place-items-center rounded-full bg-brand-leaf text-[10px] text-white">✓</span>{t}
+                      <span className="mt-0.5 grid h-4 w-4 shrink-0 place-items-center rounded-full bg-brand-leaf text-[0.625rem] text-white">✓</span>{t}
                     </li>
                   ))}
                 </ul>

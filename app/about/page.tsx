@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div data-aos="fade-up">
             <span className="eyebrow">Who we are</span>
             <h2 className="section-title">A reliable, vibrant and <span className="italic text-brand-red">eminent</span> real estate company</h2>
-            <div className="mt-6 space-y-4 text-[16px] leading-relaxed text-brand-muted md:text-[17px]">
+            <div className="mt-6 space-y-4 text-[1rem] leading-relaxed text-brand-muted md:text-[1.0625rem]">
               <p>
                 <b className="text-brand-ink">Subhagruha Group</b> is a leading gated-community plotted development company across Hyderabad, Visakhapatnam and Vijayawada. Since {SITE.founded} we have delivered 100+ HMDA, DTCP, VMRDA and RERA-approved ventures, earning the trust of thousands of families and investors.
               </p>
@@ -64,7 +64,7 @@ export default function AboutPage() {
               {STATS.map((st, i) => (
                 <div key={st.l} className="px-1 text-center">
                   <b className={`block text-2xl font-semibold leading-none md:text-3xl ${i === 0 ? "text-brand-gold" : "text-brand-red"}`} style={{ fontFamily: "var(--font-serif)" }}>{st.v}</b>
-                  <span className="mt-1.5 block text-[9px] font-bold uppercase leading-tight tracking-[0.12em] text-brand-muted sm:text-[10px]">{st.l}</span>
+                  <span className="mt-1.5 block text-[0.5625rem] font-bold uppercase leading-tight tracking-[0.12em] text-brand-muted sm:text-[0.625rem]">{st.l}</span>
                 </div>
               ))}
             </div>
@@ -80,7 +80,7 @@ export default function AboutPage() {
             <span className="eyebrow justify-center !text-brand-gold">Our story</span>
             <h2 className="section-title !text-white">Watch the <span className="italic text-brand-gold">Subhagruha</span> film</h2>
             <Ornament className="mt-5 justify-center" />
-            <p className="mt-5 text-[16px] leading-relaxed text-white/75">
+            <p className="mt-5 text-[1rem] leading-relaxed text-white/75">
               Our brand film featuring Megastar Chiranjeevi, Kushboo and Anasuya, directed by Sukumar, the director of Pushpa. A glimpse of the trust and happiness behind every Subhagruha venture.
             </p>
           </div>
@@ -111,7 +111,7 @@ export default function AboutPage() {
                     <div className="relative aspect-[4/5] overflow-hidden rounded-t-[11rem] rounded-b-[1.75rem] bg-gradient-to-b from-[#FFF3DC] via-[#FDE7C7] to-[#F6C99B] shadow-[0_40px_70px_-35px_rgba(74,10,13,.6)]">
                       <Image src={m.photo} alt={`${m.name}, ${m.role} of Subhagruha Group`} fill sizes="(max-width:768px) 90vw, 400px" className="object-cover object-top mix-blend-multiply" />
                     </div>
-                    <span className="absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-gradient-to-r from-brand-red to-[#ff4a3a] px-6 py-2.5 text-[11px] font-bold uppercase tracking-[0.22em] text-white shadow-lg">
+                    <span className="absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-gradient-to-r from-brand-red to-[#ff4a3a] px-6 py-2.5 text-[0.6875rem] font-bold uppercase tracking-[0.22em] text-white shadow-lg">
                       {m.role}
                     </span>
                   </div>
@@ -122,7 +122,7 @@ export default function AboutPage() {
                     <h3 className="-mt-6 text-4xl font-semibold leading-tight text-brand-ink md:text-5xl" style={{ fontFamily: "var(--font-serif)" }}>{m.name}</h3>
                     <p className="mt-2 text-xs font-bold uppercase tracking-[0.25em] text-brand-red">{m.role} · Subhagruha Group</p>
                     <Ornament className={`mt-5 justify-center ${flip ? "md:justify-end" : "md:justify-start"}`} />
-                    <p className="mt-5 text-[16px] leading-relaxed text-brand-muted md:text-[17px]">{m.bio}</p>
+                    <p className="mt-5 text-[1rem] leading-relaxed text-brand-muted md:text-[1.0625rem]">{m.bio}</p>
                   </div>
                 </article>
               );
@@ -152,7 +152,7 @@ export default function AboutPage() {
                 <span className="grid h-14 w-14 place-items-center rounded-2xl bg-gradient-to-br from-brand-gold to-brand-orange text-2xl text-white shadow-lg">{c.icon}</span>
                 <h3 className="mt-6 text-3xl font-semibold text-brand-ink md:text-4xl" style={{ fontFamily: "var(--font-serif)" }}>{c.t}</h3>
                 <span className="mt-4 block h-px w-16 bg-gradient-to-r from-brand-gold to-transparent transition-all duration-500 group-hover:w-32" />
-                <p className="mt-5 text-[16px] leading-relaxed text-brand-muted">{c.body}</p>
+                <p className="mt-5 text-[1rem] leading-relaxed text-brand-muted">{c.body}</p>
               </div>
             ))}
           </div>

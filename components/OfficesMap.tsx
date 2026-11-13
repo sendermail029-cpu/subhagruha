@@ -57,5 +57,5 @@ export default function OfficesMap({ offices }: { offices: MapOffice[] }) {
     };
   }, [offices]);
 
-  return <div ref={el} className="h-[380px] w-full md:h-[520px]" role="region" aria-label="Map of Subhagruha offices in Hyderabad, Vijayawada and Visakhapatnam" />;
+  return <div ref={el} className="h-[23.75rem] w-full md:h-[32.5rem]" role="region" aria-label="Map of Subhagruha offices in Hyderabad, Vijayawada and Visakhapatnam" />;
 }

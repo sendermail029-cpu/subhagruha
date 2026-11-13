@@ -12,13 +12,13 @@ export default function ProjectCard({ p }: { p: Project }) {
     <Tilt as="article" max={7} className="card-3d group flex flex-col overflow-hidden">
       <Link href={`/projects/${p.slug}`} className="relative block aspect-[16/11] overflow-hidden bg-brand-green-soft">
         <Image src={p.image} alt={`${p.name} – open plots in ${p.area}, ${p.city}`} fill sizes="(max-width:768px) 100vw, 33vw" className="object-cover transition duration-700 group-hover:scale-105" />
-        <span className="absolute left-3.5 top-3.5 flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider text-brand-green">
+        <span className="absolute left-3.5 top-3.5 flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-[0.6875rem] font-extrabold uppercase tracking-wider text-brand-green">
           <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-500" /> {p.status}
         </span>
-        <span className="absolute right-3.5 top-3.5 rounded-full bg-brand-red px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider text-white">{p.city}</span>
+        <span className="absolute right-3.5 top-3.5 rounded-full bg-brand-red px-3 py-1 text-[0.6875rem] font-extrabold uppercase tracking-wider text-white">{p.city}</span>
       </Link>
       <div className="flex flex-1 flex-col p-6">
-        <h3 className="text-[26px] font-bold leading-tight text-brand-green-dark">
+        <h3 className="text-[1.625rem] font-bold leading-tight text-brand-green-dark">
           <Link href={`/projects/${p.slug}`} className="hover:text-brand-red">{p.name}</Link>
         </h3>
         <p className="mb-4 mt-1.5 flex items-center gap-1.5 text-sm text-brand-muted"><PinIcon className="h-4 w-4 text-brand-red" />{p.location}</p>

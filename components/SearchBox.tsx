@@ -66,7 +66,7 @@ export default function SearchBox({ className = "", autoFocus = false, onNavigat
             if (e.key === "ArrowUp") { e.preventDefault(); setActive((a) => Math.max(a - 1, 0)); }
             if (e.key === "Escape") setOpen(false);
           }}
-          className="min-w-0 flex-1 bg-transparent pl-5 pr-2 text-[15px] text-brand-ink outline-none placeholder:text-brand-muted [&::-webkit-search-cancel-button]:hidden"
+          className="min-w-0 flex-1 bg-transparent pl-5 pr-2 text-[0.9375rem] text-brand-ink outline-none placeholder:text-brand-muted [&::-webkit-search-cancel-button]:hidden"
         />
         <button type="submit" aria-label="Search" className="grid w-14 shrink-0 place-items-center bg-brand-red text-white transition hover:bg-brand-red-dark">
           <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" aria-hidden><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
@@ -74,7 +74,7 @@ export default function SearchBox({ className = "", autoFocus = false, onNavigat
       </form>
 
       {open && q.trim() && (
-        <div id={id} role="listbox" className="absolute right-0 top-[calc(100%+8px)] z-[60] w-full min-w-[320px] overflow-hidden rounded-2xl border border-brand-line bg-white shadow-card">
+        <div id={id} role="listbox" className="absolute right-0 top-[calc(100%+8px)] z-[60] w-full min-w-[20rem] overflow-hidden rounded-2xl border border-brand-line bg-white shadow-card">
           {hits.length ? hits.map((h, i) => (
             <button key={h.key} role="option" aria-selected={i === active} onMouseEnter={() => setActive(i)} onClick={() => go(h)}
               className={`flex w-full items-center gap-3 px-3 py-2.5 text-left transition ${i === active ? "bg-brand-cream" : ""}`}>
@@ -85,7 +85,7 @@ export default function SearchBox({ className = "", autoFocus = false, onNavigat
                 <span className="block truncate text-sm font-bold text-brand-green-dark">{h.name}</span>
                 <span className="block truncate text-xs text-brand-muted">{h.sub}</span>
               </span>
-              <span className={`shrink-0 rounded-full px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider ${h.badge === "Ongoing" ? "bg-emerald-50 text-emerald-700" : h.badge === "Completed" ? "bg-brand-green-soft text-brand-green" : "bg-brand-red-soft text-brand-red"}`}>{h.badge}</span>
+              <span className={`shrink-0 rounded-full px-2 py-0.5 text-[0.625rem] font-extrabold uppercase tracking-wider ${h.badge === "Ongoing" ? "bg-emerald-50 text-emerald-700" : h.badge === "Completed" ? "bg-brand-green-soft text-brand-green" : "bg-brand-red-soft text-brand-red"}`}>{h.badge}</span>
             </button>
           )) : (
             <p className="px-4 py-4 text-sm text-brand-muted">No projects match “{q}”. Try a city or area, e.g. <b>Shadnagar</b> or <b>Vizag</b>.</p>

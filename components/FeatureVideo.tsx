@@ -22,7 +22,7 @@ export default function FeatureVideo({ id, title }: { id: string; title: string 
             </span>
           </span>
           <span className="absolute inset-x-0 bottom-0 p-5 text-left text-white md:p-8">
-            <span className="block text-[11px] font-bold uppercase tracking-[0.22em] text-brand-gold">Watch</span>
+            <span className="block text-[0.6875rem] font-bold uppercase tracking-[0.22em] text-brand-gold">Watch</span>
             <span className="mt-1 block text-xl font-semibold md:text-2xl" style={{ fontFamily: "var(--font-serif)" }}>{title}</span>
           </span>
         </button>

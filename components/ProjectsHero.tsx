@@ -48,7 +48,7 @@ export default function ProjectsHero({ projects }: { projects: Project[] }) {
 
   return (
     <section id="home" aria-roledescription="carousel" aria-label="Ongoing projects"
-      className="relative isolate flex min-h-[640px] flex-col overflow-hidden bg-[#1a0506] text-white md:min-h-[680px] lg:h-[min(88vh,780px)]"
+      className="relative isolate flex min-h-[40rem] flex-col overflow-hidden bg-[#1a0506] text-white md:min-h-[42.5rem] lg:h-[min(88vh,48.75rem)]"
       onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
       {/* background photo (cross-fade + slow zoom) */}
       {list.map((x, k) => (
@@ -66,29 +66,29 @@ export default function ProjectsHero({ projects }: { projects: Project[] }) {
       <div className="wrap flex flex-1 items-end pb-6 pt-40 md:items-center md:pb-8 md:pt-12">
         <div key={p.slug} className="max-w-2xl animate-[pageIn_.8s_cubic-bezier(.2,.7,.2,1)_both]">
           <div className="flex flex-wrap items-center gap-3">
-            <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-[0.2em] ring-1 ring-white/20 backdrop-blur">
+            <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3.5 py-1.5 text-[0.6875rem] font-bold uppercase tracking-[0.2em] ring-1 ring-white/20 backdrop-blur">
               <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" /> Ongoing
             </span>
-            <span className="text-[12px] font-bold uppercase tracking-[0.22em] text-brand-gold">{p.city}</span>
+            <span className="text-[0.75rem] font-bold uppercase tracking-[0.22em] text-brand-gold">{p.city}</span>
           </div>
 
           <h1 className="mt-3 text-[2.05rem] font-semibold leading-[1.05] sm:text-[2.6rem] md:mt-5 [text-shadow:0_4px_24px_rgba(0,0,0,.45)] md:text-6xl lg:text-7xl">{p.name}</h1>
-          <p className="mt-3 flex items-start gap-2 text-[14px] text-white/85 md:mt-4 md:items-center md:text-lg">
+          <p className="mt-3 flex items-start gap-2 text-[0.875rem] text-white/85 md:mt-4 md:items-center md:text-lg">
             <svg viewBox="0 0 24 24" className="h-5 w-5 shrink-0 text-brand-gold" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z" /><circle cx="12" cy="9.5" r="2.5" /></svg>
             {p.location}
           </p>
 
           <div className="mt-4 flex flex-wrap gap-1.5 md:mt-5 md:gap-2">
             {p.tags.slice(0, 3).map((t, ti) => (
-              <span key={t} className={`rounded-full bg-white/10 px-2.5 py-1 text-[11px] font-semibold ring-1 ring-white/15 backdrop-blur md:px-3 md:text-[12px] ${ti === 2 ? "hidden sm:inline" : ""}`}>{t}</span>
+              <span key={t} className={`rounded-full bg-white/10 px-2.5 py-1 text-[0.6875rem] font-semibold ring-1 ring-white/15 backdrop-blur md:px-3 md:text-[0.75rem] ${ti === 2 ? "hidden sm:inline" : ""}`}>{t}</span>
             ))}
-            {rera && <span className="rounded-full bg-brand-gold/90 px-2.5 py-1 text-[11px] font-bold text-[#1a0506] md:px-3 md:text-[12px]">{rera.label.replace(/ No\.?$/, "")}: {rera.value}</span>}
+            {rera && <span className="rounded-full bg-brand-gold/90 px-2.5 py-1 text-[0.6875rem] font-bold text-[#1a0506] md:px-3 md:text-[0.75rem]">{rera.label.replace(/ No\.?$/, "")}: {rera.value}</span>}
           </div>
 
           <div className="mt-6 grid grid-cols-2 gap-2.5 pr-14 sm:pr-0 md:mt-8 md:flex md:flex-wrap md:items-center md:gap-3">
-            <Link href={`/projects/${p.slug}`} className="btn-red !px-4 !py-3 text-[13px] md:!px-7 md:!py-3.5 md:text-sm">View Project →</Link>
+            <Link href={`/projects/${p.slug}`} className="btn-red !px-4 !py-3 text-[0.8125rem] md:!px-7 md:!py-3.5 md:text-sm">View Project →</Link>
             <button type="button" onClick={() => openBooking(`${p.name} – ${p.city}`)}
-              className="rounded-full px-4 py-3 text-[13px] font-bold text-white ring-1 ring-white/40 backdrop-blur transition hover:bg-white hover:text-brand-ink md:px-7 md:py-3.5 md:text-sm">
+              className="rounded-full px-4 py-3 text-[0.8125rem] font-bold text-white ring-1 ring-white/40 backdrop-blur transition hover:bg-white hover:text-brand-ink md:px-7 md:py-3.5 md:text-sm">
               Book Site Visit
             </button>
           </div>

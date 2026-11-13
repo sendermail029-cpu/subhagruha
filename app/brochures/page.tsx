@@ -54,7 +54,7 @@ export default function BrochuresPage() {
                 <h2 className="mt-4 text-4xl font-semibold leading-[1.05] md:text-5xl lg:text-[3.4rem]" style={{ fontFamily: "var(--font-serif)" }}>
                   Can&apos;t find a <span className="italic text-brand-gold">document?</span>
                 </h2>
-                <p className="mt-4 max-w-lg text-[16px] leading-relaxed text-white/80">
+                <p className="mt-4 max-w-lg text-[1rem] leading-relaxed text-white/80">
                   Tell us the project you&apos;re interested in, and we&apos;ll send the latest brochure, price sheet and layout plan straight to your WhatsApp.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-3">
@@ -76,23 +76,23 @@ export default function BrochuresPage() {
                     <span className="grid h-9 w-9 place-items-center rounded-full bg-white text-xs font-black text-brand-red">SG</span>
                     <span className="leading-tight">
                       <b className="block text-sm text-white">Subhagruha</b>
-                      <span className="text-[11px] text-white/70">online</span>
+                      <span className="text-[0.6875rem] text-white/70">online</span>
                     </span>
                   </div>
-                  <div className="ml-auto w-fit max-w-[85%] rounded-xl rounded-tr-sm bg-[#d9fdd3] px-3 py-2 text-[13px] text-brand-ink shadow-sm">
+                  <div className="ml-auto w-fit max-w-[85%] rounded-xl rounded-tr-sm bg-[#d9fdd3] px-3 py-2 text-[0.8125rem] text-brand-ink shadow-sm">
                     Hi, please send the Tree Shades brochure 🙏
-                    <span className="mt-0.5 block text-right text-[10px] text-brand-muted">10:24 ✓✓</span>
+                    <span className="mt-0.5 block text-right text-[0.625rem] text-brand-muted">10:24 ✓✓</span>
                   </div>
-                  <div className="mt-2 w-fit max-w-[85%] rounded-xl rounded-tl-sm bg-white px-3 py-2 text-[13px] text-brand-ink shadow-sm">
+                  <div className="mt-2 w-fit max-w-[85%] rounded-xl rounded-tl-sm bg-white px-3 py-2 text-[0.8125rem] text-brand-ink shadow-sm">
                     Sure! Here you go 👇
                     <span className="mt-2 flex items-center gap-2.5 rounded-lg bg-brand-cream p-2">
-                      <span className="grid h-9 w-8 place-items-center rounded bg-brand-red text-[9px] font-black text-white">PDF</span>
+                      <span className="grid h-9 w-8 place-items-center rounded bg-brand-red text-[0.5625rem] font-black text-white">PDF</span>
                       <span className="leading-tight">
-                        <b className="block text-[12px]">Tree-Shades-Brochure.pdf</b>
-                        <span className="text-[10px] text-brand-muted">Brochure · Layout · Price sheet</span>
+                        <b className="block text-[0.75rem]">Tree-Shades-Brochure.pdf</b>
+                        <span className="text-[0.625rem] text-brand-muted">Brochure · Layout · Price sheet</span>
                       </span>
                     </span>
-                    <span className="mt-0.5 block text-right text-[10px] text-brand-muted">10:25</span>
+                    <span className="mt-0.5 block text-right text-[0.625rem] text-brand-muted">10:25</span>
                   </div>
                 </div>
               </div>

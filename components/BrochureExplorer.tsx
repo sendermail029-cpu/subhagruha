@@ -53,14 +53,14 @@ export default function BrochureExplorer({ groups }: { groups: Group[] }) {
             const on = t === city;
             return (
               <button key={t} role="tab" aria-selected={on} onClick={() => { setCity(t); setKind("All"); }}
-                className={`relative pb-3 text-[15px] font-semibold transition ${on ? "text-brand-ink" : "text-brand-muted hover:text-brand-ink"}`}>
+                className={`relative pb-3 text-[0.9375rem] font-semibold transition ${on ? "text-brand-ink" : "text-brand-muted hover:text-brand-ink"}`}>
                 {t === "All" ? "All" : t}
                 <span className={`absolute inset-x-0 bottom-[-5px] h-[2px] bg-brand-red transition-transform duration-300 ${on ? "scale-x-100" : "scale-x-0"}`} />
               </button>
             );
           })}
         </div>
-        <div aria-label="Document type" className="flex flex-wrap gap-x-5 gap-y-1 pb-3 text-[13px]">
+        <div aria-label="Document type" className="flex flex-wrap gap-x-5 gap-y-1 pb-3 text-[0.8125rem]">
           {KINDS.map((k) => (
             <button key={k} onClick={() => setKind(k)} aria-pressed={kind === k}
               className={`flex items-center gap-1.5 font-medium transition ${kind === k ? "text-brand-red" : "text-brand-muted hover:text-brand-ink"}`}>
@@ -113,10 +113,10 @@ export default function BrochureExplorer({ groups }: { groups: Group[] }) {
                           <span className="relative block h-9 w-full overflow-hidden rounded-[2px] bg-white">
                             {b.cover && <Image src={b.cover} alt="" fill sizes="56px" className="object-contain" />}
                           </span>
-                          <span className="line-clamp-3 text-center text-[6.5px] font-bold uppercase leading-tight text-[#163a6b]">{b.title}</span>
-                          <span className="rounded-[2px] bg-brand-gold px-1 text-[6px] font-black text-[#163a6b]">LAYOUT</span>
+                          <span className="line-clamp-3 text-center text-[0.4063rem] font-bold uppercase leading-tight text-[#163a6b]">{b.title}</span>
+                          <span className="rounded-[2px] bg-brand-gold px-1 text-[0.375rem] font-black text-[#163a6b]">LAYOUT</span>
                         </div>
-                        <span className="absolute bottom-1 left-2 text-[7px] font-bold tracking-widest text-white/60">N ↑</span>
+                        <span className="absolute bottom-1 left-2 text-[0.4375rem] font-bold tracking-widest text-white/60">N ↑</span>
                       </div>
                     );
                   })()}
@@ -126,19 +126,19 @@ export default function BrochureExplorer({ groups }: { groups: Group[] }) {
                       <span className="relative mx-auto block h-8 w-16 overflow-hidden">
                         {b.cover && <Image src={b.cover} alt="" fill sizes="64px" className="object-contain" />}
                       </span>
-                      <p className="mt-0.5 font-display text-[8.5px] font-extrabold uppercase tracking-[0.16em] text-brand-leaf-dark">Certificate of Registration</p>
-                      <p className="mx-auto mt-0.5 line-clamp-1 max-w-[9rem] font-display text-[11px] font-bold italic text-brand-ink">{b.title}</p>
+                      <p className="mt-0.5 font-display text-[0.5313rem] font-extrabold uppercase tracking-[0.16em] text-brand-leaf-dark">Certificate of Registration</p>
+                      <p className="mx-auto mt-0.5 line-clamp-1 max-w-[9rem] font-display text-[0.6875rem] font-bold italic text-brand-ink">{b.title}</p>
                       <span className="mx-auto mt-1.5 block h-px w-24 bg-brand-line" />
-                      <p className="mt-0.5 text-[6.5px] uppercase tracking-widest text-brand-muted">{b.city === "Hyderabad" ? "TS RERA" : "AP RERA"} · Real Estate Regulatory Authority</p>
-                      <span className="absolute -bottom-3 -right-3 grid h-11 w-11 place-items-center rounded-full bg-gradient-to-br from-brand-gold to-brand-orange text-[9px] font-black text-white shadow-lg ring-4 ring-white">RERA</span>
+                      <p className="mt-0.5 text-[0.4063rem] uppercase tracking-widest text-brand-muted">{b.city === "Hyderabad" ? "TS RERA" : "AP RERA"} · Real Estate Regulatory Authority</p>
+                      <span className="absolute -bottom-3 -right-3 grid h-11 w-11 place-items-center rounded-full bg-gradient-to-br from-brand-gold to-brand-orange text-[0.5625rem] font-black text-white shadow-lg ring-4 ring-white">RERA</span>
                     </div>
                   )}
-                  <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-brand-ink shadow-sm backdrop-blur">{b.kind}</span>
-                  <span className={`absolute right-3 top-3 rounded-full px-2 py-1 text-[10px] font-black ${L.chip}`}>{pdf ? "PDF" : "IMG"}</span>
+                  <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-[0.625rem] font-extrabold uppercase tracking-wider text-brand-ink shadow-sm backdrop-blur">{b.kind}</span>
+                  <span className={`absolute right-3 top-3 rounded-full px-2 py-1 text-[0.625rem] font-black ${L.chip}`}>{pdf ? "PDF" : "IMG"}</span>
                 </div>
 
                 <div className="flex flex-1 flex-col p-5">
-                  <h3 className="font-sans text-[15px] font-bold leading-snug text-brand-ink">{b.title}</h3>
+                  <h3 className="font-sans text-[0.9375rem] font-bold leading-snug text-brand-ink">{b.title}</h3>
                   <p className="mt-1 text-xs text-brand-muted">{b.city}</p>
                   <div className="mt-auto grid grid-cols-2 gap-2 pt-4">
                     <a href={b.file} target="_blank" rel="noopener noreferrer"
