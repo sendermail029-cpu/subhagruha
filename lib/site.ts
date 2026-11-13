@@ -14,8 +14,8 @@ export const SITE = {
   chairman: "Mr. Namburu Kalyan Chakravarthy",
   email: "moreinfosubhagruha@gmail.com",
   phones: [
-    { display: "+91 95538 63456", dial: "+919553863456" },
-    { display: "+91 99667 76366", dial: "+919966776366" },
+    { display: "+91 99667 76366", dial: "+919966776366" }, // primary
+    { display: "+91 95538 63456", dial: "+919553863456" }, // secondary
   ],
   whatsapp: { display: "+91 99667 76366", number: "919966776366" },
   social: {
