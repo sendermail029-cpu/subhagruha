@@ -27,7 +27,7 @@ export async function POST(req: Request) {
   if (!(file instanceof File)) return NextResponse.json({ error: "Choose an image file." }, { status: 400 });
   if (file.size > MAX_BYTES) return NextResponse.json({ error: "Image is larger than 20 MB." }, { status: 400 });
 
-  let out: { data: Buffer; info: sharp.OutputInfo };
+  let out: { data: Buffer; info: { width: number; height: number } };
   try {
     out = await sharp(Buffer.from(await file.arrayBuffer()))
       .rotate()
